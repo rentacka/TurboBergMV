@@ -1,0 +1,33 @@
+ターボバーガーMVはC#でツクールMVをするためのソフトです。
+
+・使い方
+ターボバーガーMV.exeを起動して、あとはツクールのプロジェクトを放り込んでください。
+そして、プロジェクト内のMVScriptTsApp.exeを起動して、変換します。
+
+
+・仕様
+ツクールMVの開発バージョンはver1.5.2です。
+そして、てきとうにC#をかいてみてください。使えるC#の範囲はSystem＋アルファ くらいです
+あと、Typescriptのlib.d.tsにも少しだけ対応していますので、lib.d.csを付属させています。
+
+・仕組み
+このソフトの仕組みはC#の空のメソッドなどをTypescriptの定義ファイルのメソッドなどに
+そのまま置き代えるという方法をとっています。今回使ったソフトはNetJsです。
+だいぶツクールMV用に改良しました。
+
+
+
+・ライセンス　ようはMit
+NetJs：Mit
+
+Typescript：Apache License 2.0
+
+pixi：Mit
+
+TypeScriptAST：Apache License 2.0
+
+rpgmakermv_typescript_dts：Mit
+
+rmmv.d.ts：CC0 1.0 Universal
+
+corescript-ts：Mit
