@@ -1,5 +1,9 @@
 ターボバーガーMVはC#でツクールMVをするためのソフトです。
 
+・準備
+VisualStudio２０１５かVisualStudio２０１７をPCにインストールしてください。
+そのとき、TypescriptもVisualStudioの設定からインストールしてください。
+
 ・使い方
 ターボバーガーMV.exeを起動して、あとはツクールのプロジェクトを放り込んでください。
 そして、プロジェクト内のMVScriptTsApp.exeを起動して、変換します。
