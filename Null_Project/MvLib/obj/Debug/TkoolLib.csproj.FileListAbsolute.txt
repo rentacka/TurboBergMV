@@ -1,0 +1,5 @@
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\TkoolLib\bin\Debug\TkoolLib.dll
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\TkoolLib\bin\Debug\TkoolLib.pdb
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\TkoolLib\obj\Debug\TkoolLib.csprojResolveAssemblyReference.cache
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\TkoolLib\obj\Debug\TkoolLib.dll
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\TkoolLib\obj\Debug\TkoolLib.pdb

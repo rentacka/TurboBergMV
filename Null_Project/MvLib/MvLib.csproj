@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF680A07-5968-4D5F-8033-86B085ECF42A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MvLib</RootNamespace>
+    <AssemblyName>MvLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="lib.d\AudioBuffer.cs" />
+    <Compile Include="lib.d\AudioBufferSourceNode.cs" />
+    <Compile Include="lib.d\AudioContext.cs" />
+    <Compile Include="lib.d\Float32Array.cs" />
+    <Compile Include="lib.d\Function.cs" />
+    <Compile Include="lib.d\GainNode.cs" />
+    <Compile Include="lib.d\Gamepad.cs" />
+    <Compile Include="lib.d\GamepadButton.cs" />
+    <Compile Include="lib.d\HTMLAudioElement.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Blob.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Canvas2DContextAttributes.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\CanvasRenderingContext2D\ArrayBuffer.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\CanvasRenderingContext2D\CanvasGradient.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\CanvasRenderingContext2D\CanvasPattern.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\CanvasRenderingContext2D\CanvasRenderingContext2D.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\CanvasRenderingContext2D\ImageData.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\CanvasRenderingContext2D\TextMetrics.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\CanvasRenderingContext2D\Uint8ClampedArray.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\DOMTokenList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\Attr.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\ClientRect.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\ClientRectList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\DocumentFragment.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\Element.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\HTMLCollectionOf.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\MSRangeCollection.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\MsZoomToOptions.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\Range.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\ScrollIntoViewOptions.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\ScrollOptions.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Element\ScrollToOptions.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Event.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\EventTarget.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLCanvasElement.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLCollection.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\ClipboardEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\CSSPageRule.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\CSSRule.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\CSSRuleList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\CSSStyleDeclaration.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\CSSStyleSheet.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\DataTransfer.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\DataTransferItem.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\DataTransferItemList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\DOMStringList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\DOMStringMap.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\DragEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\ErrorEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\File.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\FileList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\FocusEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\FunctionStringCallback.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\HTMLElement.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\KeyboardEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\MediaList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\MediaStreamError.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\MediaStreamErrorEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\MSManipulationEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\PointerEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\ProgressEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\StyleSheet.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\StyleSheetList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLElement\StyleSheetPageList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\HTMLImageElement.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\ApplicationCache.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\BarProp.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\BeforeUnloadEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Crypto.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\DeviceAcceleration.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\DeviceAccelerationDict.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\DeviceLightEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\DeviceMotionEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\DeviceOrientationEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\DeviceRotationRate.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\DeviceRotationRateDict.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Document.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Error.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\ErrorEventHandler.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\External.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\FrameRequestCallback.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\HashChangeEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\History.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\IWindow.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Location.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\MediaQueryList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\MediaQueryListListener.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\MessageEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\MSCredentials.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\MSGestureEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\MSPointerEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Navigator.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\PageTransitionEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Performance.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\PopStateEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Screen.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Selection.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Storage.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\StorageEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\StyleMedia.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\SubtleCrypto.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\Touch.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\TouchEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\TouchList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\IWindow\WebKitPoint.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\MouseEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\NamedNodeMap.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\Node.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\NodeList.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\NodeListOf.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\UIEvent.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\WebGLContextAttributes.cs" />
+    <Compile Include="lib.d\HTMLCanvasElement\WheelEvent.cs" />
+    <Compile Include="lib.d\HTMLDivElement.cs" />
+    <Compile Include="lib.d\HTMLMediaElement.cs" />
+    <Compile Include="lib.d\HTMLParagraphElement.cs" />
+    <Compile Include="lib.d\HTMLVideoElement.cs" />
+    <Compile Include="lib.d\IWebGLRenderingContext.cs" />
+    <Compile Include="lib.d\lib.d.cs" />
+    <Compile Include="lib.d\MSInputMethodContext.cs" />
+    <Compile Include="lib.d\Object.cs" />
+    <Compile Include="lib.d\PannerNode.cs" />
+    <Compile Include="lib.d\Uint8Array.cs" />
+    <Compile Include="lib.d\VideoPlaybackQuality.cs" />
+    <Compile Include="lib.d\XMLHttpRequest.cs" />
+    <Compile Include="lib.d\XMLHttpRequestUpload.cs" />
+    <Compile Include="PIXI\BaseTexture.cs" />
+    <Compile Include="PIXI\CanvasRenderer.cs" />
+    <Compile Include="PIXI\Container.cs" />
+    <Compile Include="PIXI\DisplayObject.cs" />
+    <Compile Include="PIXI\extras.cs" />
+    <Compile Include="PIXI\filters.cs" />
+    <Compile Include="PIXI\Graphics.cs" />
+    <Compile Include="PIXI\ObservablePoint.cs" />
+    <Compile Include="PIXI\Point.cs" />
+    <Compile Include="PIXI\Rectangle.cs" />
+    <Compile Include="PIXI\Sprite.cs" />
+    <Compile Include="PIXI\SystemRenderer.cs" />
+    <Compile Include="PIXI\Texture.cs" />
+    <Compile Include="PIXI\tilemap.cs" />
+    <Compile Include="PIXI\WebGLRenderer.cs" />
+    <Compile Include="rpgmakermv.d.cs" />
+    <None Include="未使用\Bitmap.cs" />
+    <None Include="未使用\MvFramework.cs" />
+    <None Include="未使用\MvLib_SceneManager.cs" />
+    <None Include="未使用\Point.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="未使用\Window - コピー.cs" />
+    <None Include="未使用\Rectangle.cs" />
+    <None Include="未使用\Window.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

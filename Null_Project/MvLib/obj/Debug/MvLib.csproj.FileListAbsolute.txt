@@ -1,0 +1,5 @@
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\CsharpBuilderVsMV\bin\Debug\Null_Project\MvLib\bin\Debug\MvLib.dll
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\CsharpBuilderVsMV\bin\Debug\Null_Project\MvLib\bin\Debug\MvLib.pdb
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\CsharpBuilderVsMV\bin\Debug\Null_Project\MvLib\obj\Debug\MvLib.csprojResolveAssemblyReference.cache
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\CsharpBuilderVsMV\bin\Debug\Null_Project\MvLib\obj\Debug\MvLib.dll
+E:\Mydocument\Visual Studio 2017\Projects\CsharpToJavascriptVsTkoolMV\CsharpBuilderVsMV\bin\Debug\Null_Project\MvLib\obj\Debug\MvLib.pdb
