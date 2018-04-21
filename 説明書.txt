@@ -41,3 +41,5 @@ rpgmakermv_typescript_dtsFMit
 rmmv.d.tsFCC0 1.0 Universal
 
 corescript-tsFMit
+
+DevToolsManage MIT Triacontane‚³‚ñ
